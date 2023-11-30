@@ -11,7 +11,7 @@ header {
 
 nav {
     position: absolute;
-    top: 0;
+    top: 110px;
     right: 0;
 }
 
@@ -28,7 +28,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a: :hover{
+nav a:hover{
     color: #C78C19;
     text-decoration: underline; 
 }
@@ -60,7 +60,7 @@ nav a: :hover{
 }
 
 .produtos li:hover h2{
-    font-size: 340px;
+    font-size: 34px;
 }
 
 .produtos h2 {
@@ -81,6 +81,7 @@ nav a: :hover{
 footer{
     text-align: center;
     background: url("bg.jpg");
+    padding: 40px 0;
 }
 
 copyright {
@@ -98,16 +99,19 @@ form {
     margin: 40px 0;
 }
 
-form laber {
+form laber, form p{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 
 }
-
-from intup ,from textarea{
+.input-padrao {
   display: block;
   margin: 0 0 20px;
-  padding; 10px 25px
+  padding: 10px 25px
   width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
